@@ -111,24 +111,6 @@ Frontend will run on: http://localhost:3000
 2. Upload PDF, DOCX, or TXT files
 3. Query the documents using natural language
 
-##  Project Structure
-
-NLP_QUERY_ENGINE/
-├── backend/
-│ ├── api/
-│ │ ├── models/ # Data models
-│ │ ├── routes/ # API endpoints
-│ │ └── services/ # Business logic
-│ └── uploads/ # Uploaded documents
-├── frontend/
-│ ├── public/
-│ └── src/
-│ └── components/ # React components
-├── employee.db # SQLite database
-├── requirements.txt # Python dependencies
-└── README.md
-
-text
 
 ##  Configuration
 
@@ -141,25 +123,7 @@ text
 - Default port: 3000
 - API base URL: http://localhost:8000
 
-## Features in Detail
-
-### Query Caching
-- Automatically caches query results
-- 5-minute TTL for optimal performance
-- Reduces database load for repeated queries
-
-### Smart Query Routing
-- Document keywords: policy, handbook, benefits, leave, hours, etc.
-- Database keywords: count, list, show, salary, department, etc.
-- Automatic classification based on intent
-
-### Schema Discovery
-- Dynamically discovers database tables and columns
-- Works with any employee database structure
-- No hard-coded table names
-
-## 📝 Assignment Requirements Completed
-
+## Features 
 ✅ Natural language query interface  
 ✅ Database schema discovery  
 ✅ Document upload and processing  
@@ -169,4 +133,5 @@ text
 ✅ API documentation  
 
 Reach me out in case of any queries at work.swatisingh12@gmail.com
+
 
